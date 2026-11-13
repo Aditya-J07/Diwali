@@ -24,7 +24,7 @@ The app needs a real Node server with WebSockets, so **Netlify and Vercel will n
 ### Render (free)
 1. Put this folder in a GitHub repo.
 2. On render.com: **New → Web Service** → pick the repo. (`render.yaml` is included, so settings are pre-filled.)
-3. Build command `npm install`, start command `npm start`.
+3. Build command `npm install`, start command `npm start`. (If your service already has `npm install && npm run build` as the build command, that works too.)
 4. Open the URL Render gives you and tap the link icon in the room to copy an invite for your partner.
 
 Note: Render's free plan sleeps after ~15 minutes without traffic, so the first load can take about 30 seconds. Open the site a minute before movie night, or use a paid instance.
