@@ -1,9 +1,15 @@
 {
-  "name": "watchparty",
-  "version": "1.0.0",
-  "description": "Watch YouTube together with camera + mic",
+  "name": "our-couch",
+  "version": "2.0.0",
+  "description": "A private watch-party app for two: synced YouTube, video call, chat and reactions.",
   "main": "server.js",
-  "scripts": { "start": "node server.js" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
   "engines": { "node": ">=18" },
-  "dependencies": { "express": "^4.19.2", "socket.io": "^4.7.5" }
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
 }
